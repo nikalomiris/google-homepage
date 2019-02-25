@@ -1,0 +1,31 @@
+.button{
+    margin: 1em;
+}
+
+.textfield{
+    width: 80%;
+}
+
+.vertical-container {
+    flex-direction: column;
+    max-height: 100vh;
+    min-height: 95vh;
+    display: -webkit-flex;
+    display:         flex;
+    -webkit-align-items: center;
+            align-items: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+  }
+
+  .nav {
+      display: fixed;
+      top: 0;
+      background-color: black;
+      height: 20px;
+  }
+
+  form {
+      text-align: center;
+      width: 600px;
+  }
